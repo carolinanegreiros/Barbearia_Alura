@@ -1,0 +1,27 @@
+[00:17] O que fizemos para que o nosso navegador soubesse que aquele arquivo abriria no navegador? Que seria uma página da web? Simplesmente colocamos .html no nome do arquivo. Só que não é apenas isso que o navegador precisa de informação para renderizar nossa página de forma correta.
+
+[00:41] Neste curso, estamos abordando a versão 5 do HTML. Como o navegador vai saber isso e não colocar a versão 3 ao invés da 5, por exemplo, na nossa página, fazendo ela parar de funcionar?
+
+[00:56] Precisamos estruturar o nosso conteúdo e passar informações para o navegador, para que ele consiga transformar a nossa página e lê-la da forma correta. Para isso, precisamos falar de uma tag muito importante que vai na primeira linha do arquivo: a tag DOCTYPE.
+
+[01:23] Por padrão, escrevemos essa tag com o nome todo em maiúsculas. As outras tags do HTML não precisam seguir esse padrão, podem estar em minúscula ou maiúscula, mas, por padrão, escrevemos o nome dessa tag em maiúsculo para que o navegador e para que todos os desenvolvedores possam ler este padrão.
+
+[01:46] Essa tag tem alguns detalhes. O primeiro deles é que o primeiro caractere dentro dela tem uma exclamação. Essa exclamação serve para que essa tag seja identificada como DOCTYPE. E outra informação que colocamos é a versão do HTML que estamos usando. No caso, estamos usando a versão 5. Ela trouxe várias modificações e modernidades para o código. Uma delas é que não precisamos mais botar a versão 4.0, 3.0 ou 5.0. Se declararmos DOCTYPE html, estamos dizendo para o navegador que estamos usando a última versão disponível do HTML.
+
+[02:37] Como estamos fazendo uma página extremamente moderna, usando o que há de mais novo, a tag html atende aos nossos requisitos.
+
+[02:48] Se salvarmos esse arquivo e voltarmos ao navegador, recarregarmos a página, vamos reparar que nenhuma mudança aconteceu no visual, mas uma mudança muito brusca aconteceu no entendimento do navegador sobre esta página.
+
+[03:06] O HTML ainda tem mais uma tag estrutural, que é a própria tag HTML. Ela é uma tag de conteúdo que serve para marcarmos tudo que é, dentro desta página, o HTML que vai ser renderizado no navegador.
+
+[03:27] Como essa tag é de conteúdo, ela precisa abrir na primeira linha, e na última linha, a última informação vai ser o fechamento dessa tag /html.
+
+[03:39] A tag do DOCTYPE não precisa ser fechada. Ela é uma tag de informação, não de conteúdo. E a tag HTML, por ser uma tag de conteúdo precisa marcar tudo que está dentro. Só que fica sempre muito difícil de ler o texto se ele estiver todo na linha da esquerda. Para isso, vamos usar a indentação e com o tab vamos jogar todo esse conteúdo para a frente.
+
+[04:07] Agora fica muito fácil lermos o que está dentro do HTML, porque está tudo espaçado.
+
+[04:18] Conseguimos organizar o nosso conteúdo para que ele seja melhor entendido pelo navegador e que esteja estruturado corretamente. É importante destacar que os navegadores modernos, como o Google Chrome, como o Firefox, Microsoft Edge tentam te ajudar se você deixa de acrescentar uma informação, por exemplo.
+
+[04:47] Nossa página funcionou quando não colocamos a tag HTML ou a DOCTYPE, mas por ser um padrão de projeto, é extremamente importante que sempre adicionemos as tags. Mesmo que o navegador hoje não deixe de rodar a página por falta de informação, não sabemos como vai ser o dia de amanhã e como os navegadores vão se comportar. É importante que nossa página esteja correta independente do que o navegador está fazendo.
+
+[05:14] Na próxima aula vamos aprender como melhorar ainda mais essa marcação, como lidar com acentuações, título da página, etc.
